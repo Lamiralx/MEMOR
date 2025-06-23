@@ -86,4 +86,9 @@
         </div>
     </main>
 </body>
+    document.querySelector('.search-button').addEventListener('click', function() {
+  const query = document.querySelector('.search-input').value;
+  alert(`Recherche en cours pour : ${query}`);
+  // Ici vous pourriez ajouter un appel API réel
+});
 </html>
