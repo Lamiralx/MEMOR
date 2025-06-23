@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MonComparateur - Trouvez les meilleurs prix</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f8f8f8;
+            padding: 15px 0;
+            border-bottom: 1px solid #e7e7e7;
+        }
+        .container {
+            width: 1200px;
+            margin: 0 auto;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #06c;
+        }
+        .search-bar {
+            display: flex;
+            margin: 20px 0;
+        }
+        .search-input {
+            flex-grow: 1;
+            padding: 10px;
+            border: 1px solid #06c;
+            border-radius: 4px 0 0 4px;
+        }
+        .search-button {
+            padding: 10px 20px;
+            background-color: #06c;
+            color: white;
+            border: none;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+        }
+        .product-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+        }
+        .product-price {
+            color: #e00;
+            font-weight: bold;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">MonComparateur</div>
+        </div>
+    </header>
+    
+    <main class="container">
+        <div class="search-bar">
+            <input type="text" class="search-input" placeholder="Rechercher un produit...">
+            <button class="search-button">Comparer</button>
+        </div>
+        
+        <div class="filters">
+            <!-- Filtres ici -->
+        </div>
+        
+        <div class="results">
+            <div class="product-card">
+                <h3>Nom du Produit 1</h3>
+                <p class="product-price">99,99 €</p>
+                <p>Marchand: Amazon</p>
+            </div>
+            <div class="product-card">
+                <h3>Nom du Produit 2</h3>
+                <p class="product-price">89,99 €</p>
+                <p>Marchand: Darty</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
